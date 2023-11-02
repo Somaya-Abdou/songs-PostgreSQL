@@ -1,0 +1,62 @@
+spotify_id
+The unique idntifer for the song in the Spotify database. (type: str)
+
+name
+The title of the song. (type: str)
+
+artists
+The name(s) of the artist(s) asociated with he song.(type: str)
+
+daily_rank
+The daily rank of the song amount the top 50 songs for this country. (type: int)
+
+daily_movement
+The change in rankings compared to the previous day for the same country. (type: int)
+
+weekly_movement
+The change in rankings compared to the previous week for the same country. (type: int)
+
+country
+ISO Code of the country. If NULL, then the playlist is 'Global'. Since Global doesn't have an ISO code, can't put it here. (type:
+
+popularity
+A measure of the song's current popularity on Spotify. (type: int)
+
+is_explicit
+Indicates whether the song contains explicit lyrics. (type: bool)
+
+duration_min
+The duration of the song minutes. (type: float)
+
+album_name
+The title of the album the song belongs to. (type: str)
+
+album_release_date
+The release date of the album the song belongs t. (type: str)
+
+danceability
+A measureof how suitable the song is for dancing based on various musical elements. (type: float)
+
+energy
+A measure of the intensity and activity level of thesong. (type: float)
+
+loudness
+The overall loudness of the song in decibels. (type: float)
+
+speechiness
+A measureof the presence ofspoken words inthe song. (type: float)
+
+acousticness
+A measure of the acoustic quality of the song. (type: float)
+
+instrumentalness
+A measureof the likelihood that the song does not cntain vocals. (type: float)
+
+liveness
+A measure of the prsence of a live audience in the recording. (type: float)
+
+valence
+A measure of the musical positiveness conveyed b the song. (type: float)
+
+time_signature
+The estimated overall time signature of the song. (type: int)
