@@ -7,9 +7,9 @@ In this project a song dataset is taken from kaggle website and goes through mul
 
 2 : A postgres database is created using class method
 
-2 : Normalized tables are created in the postgres database called songs 
+3 : Normalized tables are created in the postgres database called songs 
 
-3 : Data is inserted into the tables and many sql queries are applied to get interesting information 
+4 : Data is inserted into the tables and many sql queries are applied to get interesting information 
 out of it with methods like window functions
 # Used libraries 
 pandas,
