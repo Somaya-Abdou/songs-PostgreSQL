@@ -1,4 +1,3 @@
-from song_create_tables import create_database as cd
 import song_create_tables as song
 
 def main():
